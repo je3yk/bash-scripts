@@ -1,0 +1,4 @@
+#! /bin/bash
+
+dir="$(dirname "$1")";
+mkdir -p "$dir" && touch "$1"
